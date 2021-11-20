@@ -3,9 +3,9 @@ layout: dashboard
 title: Welcome to Your Dashboard 
 ---
 
-[back](./)
+[First page](./)
 
-[How it was done](./description.html).
+[How it was done](./description.html)
 
 
 <script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
@@ -15,7 +15,7 @@ title: Welcome to Your Dashboard
 
 You are currently working with 21 product categories, in the graphs below you can see the share of cost (€) for each category as well as the estimated share of carbon emission (CO2/1€) for each category. 
 
-## The first Chart from chart.js
+### Approximated CO2kg by Category
 
 <div>
   <canvas id="myChart1"></canvas>
@@ -32,7 +32,7 @@ You are currently working with 21 product categories, in the graphs below you ca
 </script>
 
 
-## The Second Chart from chart.js
+### Cost by Category
 
 <div>
   <canvas id="myChart2"></canvas>
@@ -48,7 +48,7 @@ You are currently working with 21 product categories, in the graphs below you ca
   );
 </script>
 
-## Combined cost and CO2 impact 
+### CO2kg per € spent by Category
 
 By multiplying the carbon emission (CO2/1€) for a category with your total cost for the category, we can see the relative impact of each category on the combined bottom line of your organisation and the planet. 
 
@@ -74,22 +74,8 @@ By multiplying the carbon emission (CO2/1€) for a category with your total cos
 
 Within your procured categories, there are 5(?) categories in particular that account for 70%(?) of your combined cost and CO2 emissions. If these categories are absolutely essential to your business, we'd strongly recommend considering an alternative vendor with lower CO2 emissions and neutral or lower price, click here to see a comparison of similar vendors (dead link).
 
-## The Fourth Chart from chart.js
-
-<div>
-  <canvas id="myChart4"></canvas>
-</div>
 
 
-<script>
-  // === include 'setup' then 'config' above ===
+[First page](./)
 
-  const myChart4 = new Chart(
-    document.getElementById('myChart4'),
-    chart4
-  );
-</script>
-
-[back](./)
-
-[How it was done](./description.html).
+[How it was done](./description.html)
