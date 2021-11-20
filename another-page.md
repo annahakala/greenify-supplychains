@@ -34,7 +34,7 @@ You are currently working with 21 product categories, in the graphs below you ca
 </script>
 
 
-## CO2kg per € spent by Category
+## CO2kg/Eur by Category
 
 <div>
   <canvas id="myChart3"></canvas>
@@ -78,12 +78,12 @@ By multiplying the carbon emission (CO2/1€) for a category with your total cos
 
 ## Opportunities and recommendations 
 
-Within your procured categories, there are 5(?) categories in particular that account for 70%(?) of your combined cost and CO2 emissions. If these categories are absolutely essential to your business, we'd strongly recommend considering an alternative vendor with lower CO2 emissions and neutral or lower price, click here to see a comparison of similar vendors (dead link).
+Within your procured categories, there are 4 categories in particular that account for almost all of your combined cost and CO2 emissions. If these categories are absolutely essential to your business, we'd strongly recommend considering an alternative vendor with lower CO2 emissions and neutral or lower price.
 
-### Approximated Total CO2kg by Category
+### 4 of your Categories are Critical to Optimize
 
 <div>
-  <canvas id="myChart1"></canvas>
+  <canvas id="myChart4"></canvas>
 </div>
 
 
@@ -91,7 +91,7 @@ Within your procured categories, there are 5(?) categories in particular that ac
   // === include 'setup' then 'config' above ===
 
   const myChart4 = new Chart(
-    document.getElementById('myChart1'),
+    document.getElementById('myChart4'),
     chart4
   );
 </script>
