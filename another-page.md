@@ -3,9 +3,9 @@ layout: dashboard
 title: Welcome to Your Dashboard 
 ---
 
-[First page](./)
+[(click here to go to the first page)](./)
 
-[How it was done](./description.html)
+[(click here to see how it was done)](./description.html)
 
 
 <script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
@@ -76,6 +76,6 @@ Within your procured categories, there are 5(?) categories in particular that ac
 
 
 
-[First page](./)
+[(click here to go to the first page)](./)
 
-[How it was done](./description.html)
+[(click here to see how it was done)](./description.html)

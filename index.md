@@ -1,5 +1,6 @@
 ---
 layout: default
+title: CO2 and procurement analytics that saves both money and the planet
 ---
 
 
@@ -12,4 +13,5 @@ Greenify helps organisations set, measure and achieve decarbonisation targets th
 We can see you are signed in, do you want to go to your dashboard? 
 
 
-[Go to the dashboard](./another-page.html).
+[(click here to go to the dashboard)](./another-page.html).
+[(click here to see how it was done)](./description.html)

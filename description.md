@@ -3,9 +3,9 @@ layout: dashboard
 title: How it was done
 ---
 
-[First page](./)
+[(click here to go to the first page)](./)
 
-[Go to the dashboard](./another-page.html)
+[(click here to go to the dashboard)](./another-page.html)
 
 ## Brief overview of how the data was extracted and calculated
 
@@ -26,6 +26,6 @@ Then combining the “spend data” with its categories emission data and the ma
 
 
 
-[First page](./)
+[(click here to go to the first page)](./)
 
-[Go to the dashboard](./another-page.html)
+[(click here to go to the dashboard)](./another-page.html)
