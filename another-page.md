@@ -37,6 +37,9 @@ You are currently working with 20(?) product categories, in the graphs below you
   <canvas id="myChart2"></canvas>
 </div>
 
+<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
+
 <script>
   // === include 'setup' then 'config' above ===
 
@@ -56,6 +59,9 @@ By multiplying the carbon emission (CO2/1€) for a category with your total cos
 <div>
   <canvas id="myChart3"></canvas>
 </div>
+
+<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
 
 <script>
@@ -77,6 +83,9 @@ Within your procured categories, there are 5(?) categories in particular that ac
   <canvas id="myChart4"></canvas>
 </div>
 
+
+<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
 <script>
   // === include 'setup' then 'config' above ===
