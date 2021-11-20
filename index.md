@@ -13,5 +13,6 @@ Greenify helps organisations understand how their CO2 emissions are driven by ho
 We can see you are signed in, do you want to go to your dashboard? 
 
 
-[(click here to go to the dashboard)](./another-page.html).
+[(click here to go to the dashboard)](./another-page.html)
+
 [(click here to see how it was done)](./description.html)

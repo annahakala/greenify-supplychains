@@ -11,9 +11,14 @@ title: Welcome to Your Dashboard
 <script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
-## Cost and CO2 baseline 
+## Understanding your CO2 impact
 
-You are currently working with 21 product categories, in the graphs below you can see the share of cost (€) for each category as well as the estimated share of carbon emission (CO2/1€) for each category. 
+You are currently working with 21 product categories, in the 4 graphs below you will find:
+
+1.    CO2kg by category
+2.    CO2kg/Eur by category
+3.    Approximated CO2kg by Category
+4.    Four of your Categories are critical to optimise
 
 
 
