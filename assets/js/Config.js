@@ -1,19 +1,19 @@
 const chart1 = {
-    type: 'doughnut',
+    type: 'bar',
     data: data1,
   };
 
 const chart2 = {
-    type: 'doughnut',
+    type: 'bar',
     data: data2,
   };
 
 const chart3 = {
-    type: 'doughnut',
+    type: 'bar',
     data: data3,
   };
 
   const chart4 = {
-    type: 'doughnut',
+    type: 'bar',
     data: data4,
   };
