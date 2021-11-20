@@ -14,6 +14,6 @@ const chart3 = {
   };
 
   const chart4 = {
-    type: 'pie',
+    type: 'doughnut',
     data: data4,
   };
