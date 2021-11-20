@@ -13,7 +13,7 @@ title: Welcome to Your Dashboard
 
 ## Understanding your CO2 impact
 
-You are currently working with 21 product categories, in the 4 graphs below you will find:
+You are currently working with 21 categories, in the 4 graphs below you will find:
 
 1.    CO2kg by category
 2.    CO2kg/Eur by category
