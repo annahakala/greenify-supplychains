@@ -5,13 +5,15 @@ title: Welcome to Your Dashboard
 
 [back](./)
 
+[How it was done](./description.html).
+
 
 <script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
 ## Cost and CO2 baseline 
 
-You are currently working with 20(?) product categories, in the graphs below you can see the share of cost (€) for each category as well as the estimated share of carbon emission (CO2/1€) for each category. 
+You are currently working with 21 product categories, in the graphs below you can see the share of cost (€) for each category as well as the estimated share of carbon emission (CO2/1€) for each category. 
 
 ## The first Chart from chart.js
 
@@ -89,3 +91,5 @@ Within your procured categories, there are 5(?) categories in particular that ac
 </script>
 
 [back](./)
+
+[How it was done](./description.html).
