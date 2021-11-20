@@ -11,5 +11,5 @@ Greenify helps organisations set, measure and achieve decarbonisation targets th
 
 We can see you are signed in, do you want to go to your dashboard? 
 
-<button mat-raised-button>Basic</button>
+<button mat-raised-button ng-click="changePage('./Data1.html')">Basic</button>
 [Link to another page](./another-page.html).
