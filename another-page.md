@@ -15,21 +15,6 @@ title: Welcome to Your Dashboard
 
 You are currently working with 21 product categories, in the graphs below you can see the share of cost (€) for each category as well as the estimated share of carbon emission (CO2/1€) for each category. 
 
-### Approximated CO2kg by Category
-
-<div>
-  <canvas id="myChart1"></canvas>
-</div>
-
-
-<script>
-  // === include 'setup' then 'config' above ===
-
-  const myChart1 = new Chart(
-    document.getElementById('myChart1'),
-    chart1
-  );
-</script>
 
 
 ### Cost by Category
@@ -48,12 +33,8 @@ You are currently working with 21 product categories, in the graphs below you ca
   );
 </script>
 
-### CO2kg per € spent by Category
 
-By multiplying the carbon emission (CO2/1€) for a category with your total cost for the category, we can see the relative impact of each category on the combined bottom line of your organisation and the planet. 
-
-
-## The Third Chart from chart.js
+## CO2kg per € spent by Category
 
 <div>
   <canvas id="myChart3"></canvas>
@@ -70,9 +51,50 @@ By multiplying the carbon emission (CO2/1€) for a category with your total cos
   );
 </script>
 
+
+
+### Combined cost and CO2 impact 
+
+By multiplying the carbon emission (CO2/1€) for a category with your total cost for the category, we can see the relative impact of each category on the combined bottom line of your organisation and the planet. 
+
+
+
+
+### Approximated Total CO2kg by Category
+
+<div>
+  <canvas id="myChart1"></canvas>
+</div>
+
+
+<script>
+  // === include 'setup' then 'config' above ===
+
+  const myChart1 = new Chart(
+    document.getElementById('myChart1'),
+    chart1
+  );
+</script>
+
 ## Opportunities and recommendations 
 
 Within your procured categories, there are 5(?) categories in particular that account for 70%(?) of your combined cost and CO2 emissions. If these categories are absolutely essential to your business, we'd strongly recommend considering an alternative vendor with lower CO2 emissions and neutral or lower price, click here to see a comparison of similar vendors (dead link).
+
+### Approximated Total CO2kg by Category
+
+<div>
+  <canvas id="myChart1"></canvas>
+</div>
+
+
+<script>
+  // === include 'setup' then 'config' above ===
+
+  const myChart4 = new Chart(
+    document.getElementById('myChart1'),
+    chart4
+  );
+</script>
 
 
 
