@@ -1,6 +1,6 @@
 ---
 layout: dashboard
-title: How it was done
+title: Description and Future Development
 ---
 
 [(click here to go to the first page)](./)
@@ -24,6 +24,11 @@ Then combining the “spend data” with its categories emission data and the ma
 ![description2](./assets/img/description2.png)
 
 
+The approximations are quite rough due to the wide categories. Generally the approximations done based on weight (kg) are better than the ones based on value (spentEUR), as the value based approximation cant take into account possible discounts affecting the price. Also, in the case of negative spending numbers in the date we have taken the assumption that the products have been returned, and the CO2 have been subtracted from the total. Even though it well could have indicated a deal and just a cashback.
+
+## Future development
+
+The exactness of the approximations could be made much better by making a more detailed emissions table. Which could be connected not only to the procurement category, but instead to the actual product. This would make the resulting CO2kg_eq very exact and make it possible for companies to compare different products not only on the cost but also on its environmental impact. This date could also be used by the companies to automate their reporting of their environmental impact to different certification agencies in case they are applying for such.
 
 
 [(click here to go to the first page)](./)
