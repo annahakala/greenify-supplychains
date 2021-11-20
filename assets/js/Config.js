@@ -1,5 +1,4 @@
 const config = {
-    type: 'line',
+    type: 'doughnut',
     data: data,
-    options: {}
   };
