@@ -15,7 +15,7 @@ You are currently working with 20(?) product categories, in the graphs below you
 ## The first Chart from chart.js
 
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="myChart1"></canvas>
 </div>
 
 <script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
@@ -25,8 +25,8 @@ You are currently working with 20(?) product categories, in the graphs below you
   // === include 'setup' then 'config' above ===
 
   const myChart = new Chart(
-    document.getElementById('myChart'),
-    config
+    document.getElementById('myChart1'),
+    chart1
   );
 </script>
 
@@ -34,18 +34,15 @@ You are currently working with 20(?) product categories, in the graphs below you
 ## The Second Chart from chart.js
 
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="myChart2"></canvas>
 </div>
-
-<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
-<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
 <script>
   // === include 'setup' then 'config' above ===
 
   const myChart = new Chart(
-    document.getElementById('myChart'),
-    config
+    document.getElementById('myChart2'),
+    chart2
   );
 </script>
 
@@ -57,18 +54,16 @@ By multiplying the carbon emission (CO2/1€) for a category with your total cos
 ## The Third Chart from chart.js
 
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="myChart3"></canvas>
 </div>
 
-<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
-<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
 <script>
   // === include 'setup' then 'config' above ===
 
   const myChart = new Chart(
-    document.getElementById('myChart'),
-    config
+    document.getElementById('myChart3'),
+    chart3
   );
 </script>
 
@@ -79,18 +74,16 @@ Within your procured categories, there are 5(?) categories in particular that ac
 ## The Fourth Chart from chart.js
 
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="myChart4"></canvas>
 </div>
 
-<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
-<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
 
 <script>
   // === include 'setup' then 'config' above ===
 
   const myChart = new Chart(
-    document.getElementById('myChart'),
-    config
+    document.getElementById('myChart4'),
+    chart4
   );
 </script>
 
