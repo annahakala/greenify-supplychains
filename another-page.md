@@ -23,7 +23,7 @@ You are currently working with 20(?) product categories, in the graphs below you
 <script>
   // === include 'setup' then 'config' above ===
 
-  const myChart = new Chart(
+  const myChart1 = new Chart(
     document.getElementById('myChart1'),
     chart1
   );
@@ -40,7 +40,7 @@ You are currently working with 20(?) product categories, in the graphs below you
 <script>
   // === include 'setup' then 'config' above ===
 
-  const myChart = new Chart(
+  const myChart2 = new Chart(
     document.getElementById('myChart2'),
     chart2
   );
@@ -62,7 +62,7 @@ By multiplying the carbon emission (CO2/1€) for a category with your total cos
 <script>
   // === include 'setup' then 'config' above ===
 
-  const myChart = new Chart(
+  const myChart3 = new Chart(
     document.getElementById('myChart3'),
     chart3
   );
@@ -82,7 +82,7 @@ Within your procured categories, there are 5(?) categories in particular that ac
 <script>
   // === include 'setup' then 'config' above ===
 
-  const myChart = new Chart(
+  const myChart4 = new Chart(
     document.getElementById('myChart4'),
     chart4
   );
