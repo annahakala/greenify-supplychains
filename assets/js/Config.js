@@ -14,6 +14,6 @@ const chart3 = {
   };
 
   const chart4 = {
-    type: 'bar',
+    type: 'pie',
     data: data4,
   };
