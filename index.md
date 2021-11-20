@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CO2 and procurement analytics that saves both money and the planet
+title: CO2 analytics for your business and the planet
 ---
 
 
