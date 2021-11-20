@@ -2,6 +2,26 @@
 layout: default
 ---
 
+## The first Chart from chart.js
+
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script src="{{ "/assets/js/Setup.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/Config.js" | relative_url }}"></script>
+
+<script>
+  // === include 'setup' then 'config' above ===
+
+  const myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+</script>
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
